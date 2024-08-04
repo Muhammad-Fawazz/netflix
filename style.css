@@ -391,8 +391,12 @@ h1 {
     .second-row-content {
         margin-left: 7.5rem;
     }
+    .row img {
+        width: 500px;
+        /* height: 500px; */
+    }
   }
-
+  
   @media screen and (max-width: 850px) {
     .text-overlay .title {
         font-size: 2rem;
@@ -432,6 +436,9 @@ h1 {
         margin: 0;
         padding: 1.5rem;
   }
+  .row img {
+    width: 300px;
+  }
   .hero {
     margin: 3rem 1rem;
 }
@@ -441,6 +448,10 @@ h1 {
 .content {
     margin: 5px;
 }
+.h1 {
+    font-size: 2.25rem;
+}
+
 .content h2{
     font-size: 1.75rem;
     margin:none;
