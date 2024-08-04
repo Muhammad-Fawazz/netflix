@@ -395,9 +395,26 @@ h1 {
         width: 500px;
         /* height: 500px; */
     }
+    .tv-video {
+        position: absolute;
+        top: 0;
+        width: 500px;
+        height:100%;
+        border-radius: 10px;
+    }
+    .download-box img {
+        width: 100px;
+    }
   }
   
   @media screen and (max-width: 850px) {
+
+    .download-box img {
+        width: 100px;
+    }
+    .download-box {
+        width: 90%;
+    }
     .text-overlay .title {
         font-size: 2rem;
     }
@@ -426,7 +443,7 @@ h1 {
 .hero {
     margin: 7.5rem 5rem;
 }
-    
+
   }
 
   @media screen and (max-width: 600px) {
@@ -464,11 +481,30 @@ h1 {
     
 }
 .download-box {
-    left: 0;
+    height: 30%;
+    width: 80%;
+    left: 50%;
+}
+.tv-video {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height:100%;
+    border-radius: 10px;
 }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
 .Email-submit button {
     margin-top: 5px;
+}
+.download-box {
+    height: 25%;
+    width: 120%;
+    left: 50%;
+    
+}
+.download-box img {
+    height: 60px;
+
 }
 }
