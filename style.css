@@ -1,0 +1,452 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.hero-image {
+    height: 45rem;
+    background-image: url("hero-imafe.jpg");
+    width: 100%;
+    background-size: cover;
+}
+.background-set {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.text-overlay {
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+.description {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.header-nav-bar {
+    height: 5.75rem;
+    display: flex;
+    margin: 0 7.813rem;
+    padding: 1.5rem 3rem;
+}
+.header-nav-content {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 9.25rem;
+    height: 2.5rem;
+    background-image: url("Netflix_logo.png");
+    background-size: cover;
+}
+.sign-in {
+    height: 2.5rem;
+}
+.sign-in button {
+    background-color: #E50914;
+    border: none;
+    color: #FFFFFF;
+    height: 2rem;
+    width: 4.75rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+}
+.sign-in button:hover {
+    background-color: #C11119;
+}
+.hero {
+    display: flex;
+    margin: 122px 213px;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.encourage {
+    font-size: 1.5rem;
+    margin: 1rem 0 0 0;
+}
+.Email-submit {
+    display: flex;
+    justify-content: center;
+    max-width: 34.375rem;
+    margin: 1rem auto;
+    width: 100%;
+}
+.Email-submit input {
+    flex: 1;
+    padding: 1rem 0.75rem;
+    background-color: #41414171;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 0.25rem;
+    color: #fff;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+.Email-submit input::placeholder {
+    color: rgba(255, 255, 255, 0.75);
+
+}
+.Email-submit button {
+    padding: 0.75rem 1.5rem;
+    background-color: #E50914;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in;
+}
+.Email-submit button:hover {
+    background-color: #C11119;
+}
+.separator {
+    background-color: #232323;
+    width: 100%;
+    height: 0.5rem;
+}
+.row {
+    background-color: #000000;
+    height: 80vh;
+    color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    width: 45%;
+    margin-left: 7.5rem;
+    margin-right: 10rem;
+}
+.content h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+.content p {
+    font-size: 1.4rem;
+    margin: 1rem 0 0;
+}
+.video-container {
+    position: relative;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 13%;
+}
+.tv-image {
+    width: 100%;
+    z-index: 100;
+}
+.tv-video {
+    position: absolute;
+    top: 15%;
+    width: 75%;
+    height: 64%;
+    border-radius: 10px;
+}
+.second-row-content {
+    margin-left: 20%;
+}
+.second-row-video {
+    right: 0;
+    left: 10%;
+}
+.download-box {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,110%);
+    background-color: black;
+    border: 2px solid #333;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    width: 63%;
+}
+.box-thumbnail {
+    width: 50px;
+    height: 75px;
+    margin-right: 10px;
+    z-index: 100;
+}
+.box-text {
+    color: white;
+    margin-right: 20px;
+    z-index: 100;
+}
+.box-text h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    z-index: 100;
+}
+.loading-video {
+    position: absolute;
+    transform: translate(300%,-150%);
+    width: 50px;
+    height: 20px;
+    z-index: 100;
+    background-color: transparent;
+
+}
+.download-icon {
+    color: white;
+    font-size: 1.5rem;
+    z-index: 100;
+}
+.mobile-image {
+    width: 125%;
+    /* z-index: 100; */
+}
+
+.third-row-content{
+    transform: translateX(-30%);
+    
+}
+
+.fourth-row-content {
+    transform: translateX(20%);
+}
+.fourth-row-image{
+    position: relative;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -10%;
+    /* background-image: url("kids.png");
+    background-size: cover; */
+}
+
+/* FAQ Section */
+.faq-section {
+    background-color: #000000;
+    color: white;
+    padding: 50px 5%;
+    text-align: center;
+}
+
+.faq-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.faq-container {
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.faq {
+    border-bottom: 1px solid #444;
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    background-color: #303030;
+    color: white;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+}
+
+.faq-question:hover{
+    background-color: #414141;
+}
+
+.faq-question:after {
+    content: '+';
+    font-weight: 200;
+    font-size: 3rem;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #303030;
+    padding: 0 20px;
+    font-size: 1.2rem;
+}
+
+.faq-answer p {
+    padding: 20px 0;
+}
+
+.faq.open .faq-answer {
+    max-height: 200px;
+}
+
+.faq.open .faq-question:after {
+    content: '-';
+}
+
+
+.first-from-action {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #000;
+    color: #757575;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.column {
+    display: flex;
+    flex-direction:column;
+}
+.footer-container {
+    width: 100%;
+    height: 20rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 50rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.726);
+    margin: 10px 15px;
+    font-size: 0.875rem;
+    transition: color 0.3s ease-in;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .row {
+        height: 80vh;
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .video-container {
+        left: -5%;
+        max-width: 100%;
+    }
+    .fourth-row-image{
+        right: 0%;
+
+    }
+    .first-row{
+        flex-direction: column;
+    }
+    .content {
+        display: flex;
+
+        width: 90%;
+        flex-wrap: wrap;
+
+        padding: 4.5rem 0;
+
+    }
+    .content p{
+
+        width: 100%;
+    }
+    .third-row-content{
+        transform: translateX(1%);
+        
+    }
+    
+    .fourth-row-content {
+        transform: translateX(1%);
+    }
+    .second-row-content {
+        margin-left: 7.5rem;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .text-overlay .title {
+        font-size: 2rem;
+    }
+    .text-overlay .description {
+        font-size: 1rem;
+    }
+    .Email-submit {
+        display: flex;
+        max-width: 75rem;
+        margin: 1rem 0;
+        width: 100%;
+    }
+    .Email-submit input {
+    flex: 1;
+    padding: 1rem 0.75rem;
+    margin-right: 0.5rem;
+}
+
+.Email-submit button {
+    padding: 1rem 0.75rem;
+    font-size: 1rem;
+}
+.hero {
+    margin: 7.5rem 5rem;
+}
+    
+  }
+
+  @media screen and (max-width: 600px) {
+
+
+    .header-nav-bar {
+        margin: 0;
+        padding: 1.5rem;
+  }
+  .hero {
+    margin: 3rem 1rem;
+}
+.content {
+    margin: 5px;
+}
+.content h2{
+    font-size: 1.75rem;
+    margin:none;
+
+    
+}
+.content p {
+    font-size: 0.9rem;
+    margin:none;
+    
+}
+.download-box {
+    left: 0;
+}
+}
